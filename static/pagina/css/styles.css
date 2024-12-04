@@ -1,0 +1,161 @@
+/* Estilo general del body */
+body {
+    background-color: #f4f7fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sección de encabezado */
+header {
+    background-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.logo {
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+/* Título principal */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+/* Botón de llamada a la acción */
+.btn-lg {
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.btn-light {
+    background-color: #ffffff;
+    color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.btn-light:hover {
+    background-color: #ff5733;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Sección de presentación */
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-dark {
+    color: #333 !important;
+}
+
+.section-padding {
+    padding: 40px 0;
+}
+
+.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+}
+
+/* Sección "Sobre Nosotros" */
+.about-section {
+    background-color: #007bff;
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+
+
+/* Pie de página */
+footer {
+    background-color: #343a40;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff5733;
+}
+
+/* Ajuste de botones y márgenes en pantallas más pequeñas */
+.btn-lg {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+.about-section h2 {
+    font-size: 30px;
+}
+
+.about-section p {
+    font-size: 16px;
+}
+
+/* Ajuste de la imagen en la sección de presentación */
+.img-fluid {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+      /* Estilo para el contenedor del QR para hacerlo responsivo */
+      #qr-code {
+        width: 100%;  /* El QR ocupa todo el ancho disponible */
+        max-width: 200px; /* Máximo tamaño del QR */
+        margin: 20px auto; /* Centra el QR */
+        text-align: center;  /* Centra el contenido dentro del contenedor */
+    }
+
+    #qr-code img {
+        width: 100%;  /* El QR se ajusta al 100% del contenedor */
+        height: auto;  /* Mantiene las proporciones del QR */
+    }
+    /* Estilo para estandarizar las imágenes del carrusel */
+.standardized-image {
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    height: 450px; /* Define una altura fija para todas las imágenes */
+    object-fit: contain; /* Mantiene la proporción de la imagen y agrega espacio en blanco si es necesario */
+    background-color: #ffffff00; /* Añade un fondo blanco para imágenes más pequeñas */
+    border: 1px solid #00000000; /* Borde ligero para separar imágenes del fondo */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+}
+
+
+/* Personaliza las flechas del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Cambia el color de las flechas a negro */
+    border-radius: 50%; /* Opcional: redondea las flechas */
+    width: 40px; /* Ajusta el tamaño */
+    height: 40px;
+}
+
+
