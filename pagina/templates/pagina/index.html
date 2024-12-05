@@ -21,123 +21,124 @@
         <p class="lead">La app definitiva para los amantes de los videojuegos, consolas y juguetes. ¡Descubre el mejor contenido y ofertas!</p>
     </header>
 
-<!-- Sección de presentación -->
-<section class="container py-5">
-    <div class="row align-items-center">
-        <div class="col-12 col-md-6">
-            <h2 class="text-primary">¿Qué es MegaGames?</h2>
-            <p class="lead text-dark">MegaGames es la aplicación que te permite estar siempre al día con los videojuegos, consolas y juguetes más populares. ¡Únete a la mejor comunidad gamer!</p>
-        </div>
-        <div class="col-12 col-md-6">
-            <div id="megaGamesCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <!-- Primera imagen (activa) -->
-                    <div class="carousel-item active">
-                        <img src="{% static 'pagina/images/principal.jpg' %}" class="d-block w-100 standardized-image" alt="Pantalla principal">
+    <!-- Sección de presentación -->
+    <section class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+                <h2 class="text-primary">¿Qué es MegaGames app?</h2>
+                <p class="lead text-dark">MegaGames es la aplicación que te permite estar siempre al día con los videojuegos, consolas y juguetes más populares. Aquí podrás comprar todos los productos gamer que desees, además de disfrutar de múltiples funcionalidades como: inicio de sesión, registro, gestión de productos con CRUDs, herramientas de administración, reseñas de usuarios, edición de perfil y mucho más. Todo diseñado para ofrecerte una experiencia única e integral.</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <div id="megaGamesCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Primera imagen (activa) -->
+                        <div class="carousel-item active">
+                            <img src="{% static 'pagina/images/principal.jpg' %}" class="d-block w-100 standardized-image" alt="Pantalla principal">
+                        </div>
+                        <!-- Segunda imagen -->
+                        <div class="carousel-item">
+                            <img src="{% static 'pagina/images/Crud.jpg' %}" class="d-block w-100 standardized-image" alt="Funcionalidad CRUD">
+                        </div>
+                        <!-- Tercera imagen -->
+                        <div class="carousel-item">
+                            <img src="{% static 'pagina/images/catalogo.jpg' %}" class="d-block w-100 standardized-image" alt="Catálogo de productos">
+                        </div>
+                        <!-- Cuarta imagen -->
+                        <div class="carousel-item">
+                            <img src="{% static 'pagina/images/panel_admin.jpg' %}" class="d-block w-100 standardized-image" alt="Panel de administrador">
+                        </div>
+                        <!-- Quinta imagen -->
+                        <div class="carousel-item">
+                            <img src="{% static 'pagina/images/carro.jpg' %}" class="d-block w-100 standardized-image" alt="Carro de compras">
+                        </div>
+                        <!-- Sexta imagen -->
+                        <div class="carousel-item">
+                            <img src="{% static 'pagina/images/perfil.jpg' %}" class="d-block w-100 standardized-image" alt="Perfil del usuario">
+                        </div>
+                        <!-- Séptima imagen -->
+                        <div class="carousel-item">
+                            <img src="{% static 'pagina/images/login.jpg' %}" class="d-block w-100 standardized-image" alt="Pantalla de inicio de sesión">
+                        </div>
                     </div>
-                    <!-- Segunda imagen -->
-                    <div class="carousel-item">
-                        <img src="{% static 'pagina/images/Crud.jpg' %}" class="d-block w-100 standardized-image" alt="Funcionalidad CRUD">
-                    </div>
-                    <!-- Tercera imagen -->
-                    <div class="carousel-item">
-                        <img src="{% static 'pagina/images/catalogo.jpg' %}" class="d-block w-100 standardized-image" alt="Catálogo de productos">
-                    </div>
-                    <!-- Cuarta imagen -->
-                    <div class="carousel-item">
-                        <img src="{% static 'pagina/images/panel_admin.jpg' %}" class="d-block w-100 standardized-image" alt="Panel de administrador">
-                    </div>
-                    <!-- Quinta imagen -->
-                    <div class="carousel-item">
-                        <img src="{% static 'pagina/images/carro.jpg' %}" class="d-block w-100 standardized-image" alt="Carro de compras">
-                    </div>
-                    <!-- Sexta imagen -->
-                    <div class="carousel-item">
-                        <img src="{% static 'pagina/images/perfil.jpg' %}" class="d-block w-100 standardized-image" alt="Perfil del usuario">
-                    </div>
-                    <!-- Séptima imagen -->
-                    <div class="carousel-item">
-                        <img src="{% static 'pagina/images/login.jpg' %}" class="d-block w-100 standardized-image" alt="Pantalla de inicio de sesión">
-                    </div>
+
+                    <!-- Controles del carrusel -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#megaGamesCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#megaGamesCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
                 </div>
-                
-                <!-- Controles del carrusel -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#megaGamesCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#megaGamesCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Sección de llamada a la acción -->
-<section class="text-center bg-primary py-5 text-white">
-    <h2 class="display-4">¡Únete a la Aventura de MegaGames!</h2>
-    <p class="lead">Descarga nuestra app y disfruta de una experiencia única en el mundo de los videojuegos.</p>
-    
-    <!-- Enlace que se muestra en dispositivos móviles -->
-    <div id="mobile-download" class="d-none">
-        <a href="https://github.com/K4yrYu/Progra_MobileV6/releases/download/1.00/MegaGames.apk.apk" class="btn btn-light btn-lg shadow-lg">Descargar la App</a>
-    </div>
+    <!-- Sección de llamada a la acción -->
+    <section class="text-center bg-primary py-5 text-white">
+        <h2 class="display-4">¡Únete a la Aventura de MegaGames!</h2>
+        <p class="lead">Descarga nuestra app y disfruta de una experiencia única en el mundo de los videojuegos.</p>
 
-    <!-- QR que se genera automáticamente para PC -->
-    <div id="pc-download" class="d-none">
-        <p class="lead">Escanea el QR para descargar la app en tu teléfono.</p>
-        <div id="qr-code" class="img-fluid"></div>
-    </div>
-</section>
+        <!-- Enlace que se muestra en dispositivos móviles -->
+        <div id="mobile-download" class="d-none">
+            <a href="https://github.com/K4yrYu/Progra_MobileV6/releases/download/1.00/MegaGames.apk.apk" class="btn btn-light btn-lg shadow-lg">Descargar la App</a>
+        </div>
 
-<!-- Sección "Sobre Nosotros" -->
-<section class="about-section text-center bg-secondary py-5">
-    <div class="container">
-        <h2 class="display-4 text-white">Sobre MegaGames</h2>
-        <p class="text-white">En MegaGames ofrecemos una experiencia única para todos los gamers. Descubre las últimas noticias, las mejores ofertas de videojuegos, consolas y juguetes. ¡Todo en un solo lugar!</p>
-    </div>
-</section>
+        <!-- QR que se genera automáticamente para PC -->
+        <div id="pc-download" class="d-none">
+            <p class="lead">Escanea el QR para descargar la app en tu teléfono.</p>
+            <div id="qr-code" class="img-fluid"></div>
+        </div>
+    </section>
 
-<!-- Sección de Preguntas Frecuentes -->
-<section class="faq-section text-center py-5 bg-light">
-    <div class="container">
-        <h2 class="display-4 text-primary">Preguntas Frecuentes</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <h4 class="text-dark">¿Para qué dispositivos está disponible la app?</h4>
-                <p class="lead">Actualmente, MegaGames solo está disponible para dispositivos Android. Estamos trabajando en versiones para otros sistemas operativos.</p>
-            </div>
-            <div class="col-md-6">
-                <h4 class="text-dark">¿Es gratuita la aplicación?</h4>
-                <p class="lead">Sí, la app es completamente gratuita. Puedes descargarla sin costo alguno desde nuestro enlace de descarga.</p>
-            </div>
-            <div class="col-md-6">
-                <h4 class="text-dark">¿Cómo puedo descargar la app?</h4>
-                <p class="lead">Puedes descargar MegaGames desde nuestro enlace de descarga en el sitio web o escaneando el código QR que aparece en la sección de descarga.</p>
-            </div>
-            <div class="col-md-6">
-                <h4 class="text-dark">¿Necesito crear una cuenta para usar la aplicación?</h4>
-                <p class="lead">Si es necesario crear una cuenta para usar la aplicación.</p>
+    <!-- Sección "Sobre Nosotros" -->
+    <section class="about-section text-center bg-secondary py-5">
+        <div class="container">
+            <h2 class="display-4 text-white">Sobre MegaGames</h2>
+            <p class="text-white">En MegaGames ofrecemos una experiencia única para todos los gamers. Descubre las últimas noticias, las mejores ofertas de videojuegos, consolas y juguetes. ¡Todo en un solo lugar!</p>
+            <p class="text-white mt-3">📍 Encuéntranos en **Paseo Ahumada, Local 85, Santiago, Región Metropolitana**.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Preguntas Frecuentes -->
+    <section class="faq-section text-center py-5 bg-light">
+        <div class="container">
+            <h2 class="display-4 text-primary">Preguntas Frecuentes</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="text-dark">¿Para qué dispositivos está disponible la app?</h4>
+                    <p class="lead">Actualmente, MegaGames solo está disponible para dispositivos Android. Estamos trabajando en versiones para otros sistemas operativos.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-dark">¿Es gratuita la aplicación?</h4>
+                    <p class="lead">Sí, la app es completamente gratuita. Puedes descargarla sin costo alguno desde nuestro enlace de descarga.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-dark">¿Cómo puedo descargar la app?</h4>
+                    <p class="lead">Puedes descargar MegaGames desde nuestro enlace de descarga en el sitio web o escaneando el código QR que aparece en la sección de descarga.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-dark">¿Necesito crear una cuenta para usar la aplicación?</h4>
+                    <p class="lead">Sí, necesitas crear una cuenta para usar todas las funcionalidades de la aplicación.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Pie de página -->
-<footer class="text-center py-4 bg-dark text-white">
-    <p>© 2024 MegaGames - Todos los derechos reservados.</p>
-    <p>
-        <a href="#" class="text-light">Política de privacidad</a> | 
-        <a href="#" class="text-light">Términos de servicio</a>
-    </p>
-</footer>
+    <!-- Pie de página -->
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>© 2024 MegaGames - Todos los derechos reservados.</p>
+        <p>
+            <a href="#" class="text-light">Política de privacidad</a> | 
+            <a href="#" class="text-light">Términos de servicio</a>
+        </p>
+    </footer>
 
-<!-- Scripts de Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Script para detección de dispositivo y generación del QR -->
-<script src="{% static 'pagina/js/detectDevice.js' %}"></script>
+    <!-- Script para detección de dispositivo y generación del QR -->
+    <script src="{% static 'pagina/js/detectDevice.js' %}"></script>
 </body>
 </html>
